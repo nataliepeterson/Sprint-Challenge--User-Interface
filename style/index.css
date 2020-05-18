@@ -78,6 +78,9 @@ p {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
+.top-content img{
+    margin-bottom: 30px;
+}
 
 .top-content .text-container {
     width: 48%;
@@ -144,3 +147,67 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+ 
+}
+nav{
+    display:flex;
+    font-size:13px;
+    text-align:center;
+    width:80%;
+    justify-content: space-between;
+  
+    
+}
+.item{
+    display:flex;
+    justify-content: space-evenly;
+    width:400px;
+    text-decoration: none;
+    /*border:2px red solid ;*/
+   color:black;
+   margin:50px 0px 40px 0px;
+}
+#box1{
+    background:teal;
+}
+#box2{
+    background:gold;
+}
+#box3{
+    background:cadetblue;
+}
+#box4{
+    background:coral;
+}
+#box5{
+    background:crimson;
+}
+#box6{
+    background:forestgreen;
+}
+#box7{
+    background:darkorchid;
+}
+#box8{
+    background:hotpink;
+}
+#box9{
+    background:indigo;
+}
+#box10{
+    background:dodgerblue;
+}
+
+
+
+/*@media(max-width:800px){
+
+}
+
+@media(max-width:500px){
+
+}*/
