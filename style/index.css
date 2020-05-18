@@ -203,8 +203,15 @@ nav{
 }
 
 @media(max-width:500px){
+   
+    
+    html, body {
+        width:auto;
+        height: 100%;
+        font-family: 'Roboto', sans-serif;
+    }
     .container {
-        width: 500px;
+        width: auto;
       
     }
     nav{
@@ -225,7 +232,8 @@ nav{
     .item{
         display:flex;
         flex-direction: column;
-        margin:0px;
+     width:auto;
+     margin:0px;
     }
     .top-content img{
         width:100%;
@@ -244,6 +252,9 @@ nav{
         display:flex;
         flex-direction: column;
         align-content: center;
+    }
+    .middle-content .boxes .box{
+        width:30%;
     }
     .bottom-content{
         display:flex;
