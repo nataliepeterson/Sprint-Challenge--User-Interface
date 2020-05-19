@@ -251,6 +251,7 @@ nav{
     .boxes{
         display:flex;
         flex-direction: column;
+        align-items:center;
         align-content: center;
     }
     .middle-content .boxes .box{
